@@ -86,8 +86,10 @@ a {
 .section-title {
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--primary-green);
-    font-size: 2.5rem;
+    color: var(--text-dark);
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
 }
 
 .section-subtitle {
@@ -178,9 +180,10 @@ a {
    Hero Section
    =========================== */
 .hero {
-    background: linear-gradient(135deg, var(--bg-light) 0%, #e8f3e0 100%);
-    padding: 8rem 0 6rem;
+    background: linear-gradient(135deg, var(--bg-white) 0%, var(--bg-light) 100%);
+    padding: 7rem 0 5rem;
     text-align: center;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .hero-content {
@@ -189,24 +192,26 @@ a {
 }
 
 .hero-title {
-    font-size: 4rem;
-    color: var(--primary-green);
-    margin-bottom: 1rem;
-    font-weight: 700;
+    font-size: 3.5rem;
+    color: var(--text-dark);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
-    color: var(--secondary-green);
-    margin-bottom: 1rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--text-medium);
+    margin-bottom: 0.75rem;
+    font-weight: 400;
 }
 
 .hero-description {
-    font-size: 1.2rem;
-    color: var(--text-medium);
+    font-size: 1.05rem;
+    color: var(--text-light);
     margin-bottom: 2.5rem;
-    line-height: 1.8;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
 }
 
 .hero-cta {
@@ -485,20 +490,17 @@ a {
    Footer
    =========================== */
 .footer {
-    background: var(--primary-green);
-    color: white;
+    background: var(--bg-white);
+    border-top: 1px solid var(--border-color);
+    color: var(--text-light);
     text-align: center;
-    padding: 2.5rem 0;
+    padding: 2rem 0;
 }
 
 .footer p {
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 0.5rem;
-}
-
-.footer-tagline {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-bottom: 0;
+    font-size: 0.9rem;
 }
 
 /* ===========================
