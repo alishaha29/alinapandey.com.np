@@ -369,7 +369,7 @@ a {
 
 .expertise-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     margin-top: 3rem;
 }
@@ -649,7 +649,8 @@ a {
     }
 
     .expertise-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
     }
 }
 
@@ -677,6 +678,11 @@ a {
 
     .nav-link {
         font-size: 0.9rem;
+    }
+
+    .expertise-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 }
 
